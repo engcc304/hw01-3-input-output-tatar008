@@ -18,8 +18,8 @@ int main() {
     char first[55] ;
     char last[55] ;
     printf("First Name: ") ;
-    scanf("%s",&first) ;
+    scanf("%c",&first) ;
     printf("Last Name: ") ;
-    scanf("%s",&last) ;
+    scanf("%c",&last) ;
     printf("%s %s TC, RMUTL, Chiang Mai, Thailand",first,last);
 }
