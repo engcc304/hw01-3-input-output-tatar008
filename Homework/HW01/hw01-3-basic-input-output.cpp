@@ -21,6 +21,6 @@ int main() {
     scanf("%s",&first) ;
     printf("Last Name: ") ;
     scanf("%s",&last) ;
-    printf("%s %s TC, RMUTL, Chiang Mai, Thailand",first,last);
+    printf("%d %d TC, RMUTL, Chiang Mai, Thailand",first,last);
     return 0;
 }
