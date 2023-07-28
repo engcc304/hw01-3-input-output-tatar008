@@ -17,7 +17,7 @@
 int main() {
     char first[55] ;
     char last[55] ;
-    char a[] = {'TC, RMUTL, Chiang Mai, Thailand'} ;
+    char a[] = {'T','C',' ','R','M','U','T','L',' ','C','h','i','a','n','g',' ','M','a','i',' ','T','h','a','i','l','a','n','d'} ;
     printf("First Name:") ;
     scanf("%s",first) ;
     printf("Last Name:") ;
