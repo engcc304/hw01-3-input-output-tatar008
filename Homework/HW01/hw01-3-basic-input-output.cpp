@@ -17,11 +17,12 @@
 int main() {
     char first[55] ;
     char last[55] ;
+    char TC[55] ;
     printf("First Name:") ;
     scanf("%s",first) ;
     printf("Last Name:") ;
     scanf("%s",last) ;
-    printf(" %s %s",first,last) ;
-    printf(" TC, RMUTL, Chiang Mai, Thailand" ) ;
+    scanf("%s",TC) ;
+    printf(" %s %s %s",first,last,TC) ;
     return 0;
 }
