@@ -18,10 +18,10 @@ int main() {
     char *first ;
     char *last ;
     printf("First Name: ") ;
-    scanf("%s",&first) ;
+    scanf("%c",&first) ;
     printf("Last Name: ") ;
-    scanf("%s",&last) ;
-    printf("%s %s ",first,last) ;
+    scanf("%c",&last) ;
+    printf("%c %c ",first,last) ;
     printf("TC, RMUTL, Chiang Mai, Thailand" ) ;
     return 0;
 }
