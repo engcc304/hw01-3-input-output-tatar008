@@ -17,10 +17,10 @@
 int main() {
     char first ;
     char last ;
-    printf("First Name: ") ;
+    printf("First Name:") ;
     scanf("%s",&first) ;
-    printf("Last Name: ") ;
+    printf("Last Name:") ;
     scanf("%s",&last) ;
-    printf("%s %s TC, RMUTL, Chiang Mai, Thailand",first,last);
+    printf("%s%sTC, RMUTL, Chiang Mai, Thailand",first,last);
     return 0;
 }
