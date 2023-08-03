@@ -15,8 +15,8 @@
 */
 #include <stdio.h>
 int main() {
-    char first ;
-    char last ;
+    char first[55] ;
+    char last[55] ;
     printf("First Name: ") ;
     scanf("%s",&first) ;
     printf("Last Name: ") ;
